@@ -12,7 +12,7 @@ public:
         {
             int ls = num%10;
             int a = ls;
-            num = num/10 + ls;
+            num = num/10 + a;
         }
         return num;
     }
