@@ -19,14 +19,13 @@ public:
     }
 };
 
-int main()  // ✅ fixed typo
+int main()
 {
     Solution s;
     vector<int> nums = {2, 7, 11, 15};
     int target = 110;
     vector<int> result = s.twoSum(nums, target);
     
-    // ✅ print vector contents
     for (int i : result) {
         cout << i << " ";
     }
